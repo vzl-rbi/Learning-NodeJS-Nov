@@ -1,4 +1,11 @@
-nodemon
+Step:-
+
+1. npm i
+2. npm i express
+3. npm i nodemon
+4. npm i ejs
+
+nodemon :-
 This a tool helpsto develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 /_
 "scripts": {
