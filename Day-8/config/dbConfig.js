@@ -11,7 +11,6 @@ export const dbConfig = {
     idle: 10000,
   },
 };
-
 /*
 export const dbConfig = {
   HOST: "roundhouse.proxy.rlwy.net", //HOST: "localhost",  //i.e xampp
