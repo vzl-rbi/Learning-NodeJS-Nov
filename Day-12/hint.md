@@ -85,3 +85,4 @@ const hashPassword = await bcrypt.hash(password, 10);
 32. # JWT, session, cookies
 
 - npm install jsonwebtoken
+  -cookie('jwtToken', token)-> cookie created 33. #
