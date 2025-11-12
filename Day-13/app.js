@@ -22,7 +22,6 @@ app.post("/register", handleRegister);
 // });
 app.get("/login", renderLoginPage);
 app.post("/login", handlerLogin);
-
 app.use(express.static("public/css/"));
 app.listen(PORT, () =>
   console.log(`Project has started at PORT http://localhost:${PORT}`)
