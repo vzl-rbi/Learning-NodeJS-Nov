@@ -9,5 +9,5 @@ export const handleAnswer = async (req, res) => {
     userId,
     questionId,
   });
-  res.redirect(`/question/{questionId}`);
+  res.redirect(`/question/${questionId}`);
 };
