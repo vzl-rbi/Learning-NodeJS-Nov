@@ -461,3 +461,10 @@ now do same for other error and sucess message
     res.send("Something went wrong");
     }
     };
+61. # WebSockets
+
+- WebSockets are all about **real-time communication** — zero delay, instant updates.
+- Perfect for high-speed apps like **PUBG, Free Fire, stock markets, chats, live dashboards**, etc.
+- Unlike normal HTTP, WebSockets work on an **event/subscription model**, which makes them faster and more efficient.
+- They’re not a “tool” by themselves — they’re a **protocol**, a rulebook.
+- We use packages like **Socket.IO** to implement that protocol in real projects.
